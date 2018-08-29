@@ -19,5 +19,9 @@
   "homepage": "https://github.com/PatClarke27/canes-rankings#readme",
   "devDependencies": {
     "parcel-bundler": "^1.9.7"
+  },
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
   }
 }
