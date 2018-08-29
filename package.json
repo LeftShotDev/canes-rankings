@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/PatClarke27/canes-rankings/issues"
   },
-  "homepage": "https://github.com/PatClarke27/canes-rankings#readme"
+  "homepage": "https://github.com/PatClarke27/canes-rankings#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.9.7"
+  }
 }
