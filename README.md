@@ -14,3 +14,9 @@ Here is the process involved with the project to date:
 - [x] Try and show a list of players that you statically define inside your component.
 
 ## To-Do
+
+- [ ] Create a basic `App` component as entry to your application, move the rankings to a separate file.
+- [ ] You now have full static content in the render of your rankings class, could you change that so the component receives an array that it will display?
+- [ ] Once you have done that, try and take a look if the code should be split up even more.
+- [ ] You could also think about how you want to show the full information of the player, should that be a popup, a modal, or should the table extend to make room for the information, so that we can start working on that next.
+- [ ] Should you run out of work and want to go on, you can try and add a click event to the rows and for example highlight to row, or show the ID in a popup, depending on what you decide in the previous point.
