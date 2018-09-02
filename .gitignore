@@ -62,3 +62,6 @@ typings/
 
 # parcel cache
 .cache
+
+# Production Files
+dist/
