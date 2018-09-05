@@ -1,14 +1,14 @@
 // import react library
 import React, { Component } from 'react';
-import players from '../data/players.js';
 import Player from './Player';
 
 // Creating my Ranking Component with static list of players.
 export default class Rankings extends Component {
   render() {
+    const { header, players } = this.props;
     return (
       <div className="player-rankings">
-        <h1>{this.props.header}</h1>
+        <h1>{header}</h1>
         <table>
           <thead>
             <tr>
