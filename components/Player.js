@@ -1,26 +1,20 @@
 // import react library
 import React from 'react';
 
-class Player extends React.Component {
+export default class Player extends React.Component {
   render() {
     const {
- first, last, rank, gp, from, to 
-} = this.props.details;
+      first, last, rank, gp, from, to,
+    } = this.props.details;
+    const name = `${first} ${last}`;
+    const timeSpan = `${from} ${to}`;
     return (
       <tr>
-        <th> {rank}</th>
-        <td>
-          {' '}
-          {first} {last}
-        </td>{' '}
-        <td> {gp}</td>
-        <td>
-          {' '}
-          {from} - {to}
-        </td>
+        <th>{rank}</th>
+        <td>{name}</td>
+        <td>{gp}</td>
+        <td>{timeSpan}</td>
       </tr>
     );
   }
 }
-
-export default Player;

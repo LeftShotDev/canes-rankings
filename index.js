@@ -1,5 +1,5 @@
 // import react library
-import React, {Component,} from 'react';
+import React, { Component } from 'react';
 
 // import react-dom since I'm using a script tag on the html file.
 import ReactDOM from 'react-dom';
@@ -9,8 +9,7 @@ import Rankings from './components/Rankings';
 
 class App extends Component {
   render() {
-    return (<Rankings />
-    );
+    return <Rankings header="All-Time Carolina Hurricanes Rankings" />;
   }
 }
 

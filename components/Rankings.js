@@ -8,7 +8,7 @@ export default class Rankings extends Component {
   render() {
     return (
       <div className="player-rankings">
-        <h1>All-Time Carolina Hurricanes Rankings</h1>
+        <h1>{this.props.header}</h1>
         <table>
           <thead>
             <tr>
@@ -20,7 +20,7 @@ export default class Rankings extends Component {
           </thead>
           <tbody>
             {Object.keys(players).map(key => (
-              <Player key={key} index={key} details={players[key]} />
+              <Player key={`player-${key}`} details={players[key]} />
             ))}
           </tbody>
         </table>
