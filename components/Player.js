@@ -6,14 +6,13 @@ export default class Player extends Component {
     const {
       first, last, rank, gp, from, to,
     } = this.props.details;
-    const name = `${first} ${last}`;
-    const timeSpan = `${from} ${to}`;
+
     return (
       <tr>
         <th>{rank}</th>
-        <td>{name}</td>
+        <td>{`${first} ${last}`}</td>
         <td>{gp}</td>
-        <td>{timeSpan}</td>
+        <td>{`${from} ${to}`}</td>
       </tr>
     );
   }
