@@ -1,7 +1,7 @@
 // import react library
-import React from 'react';
+import React, { Component } from 'react';
 
-export default class Player extends React.Component {
+export default class Player extends Component {
   render() {
     const {
       first, last, rank, gp, from, to,
