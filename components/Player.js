@@ -6,7 +6,7 @@ export default class Player extends Component {
     const {
       first,
       last,
-      rank: { year2017 },
+      rank,
       gp,
       from,
       to
